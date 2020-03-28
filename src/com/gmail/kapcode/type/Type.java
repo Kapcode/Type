@@ -17,6 +17,7 @@ import java.util.logging.Logger;
 
 public class Type implements NativeKeyListener, NativeMouseListener, NativeMouseMotionListener {
     volatile int duration = 0, startDelay = 0, afterLoopDelay = 0, valueOfTag_every = 0, targetLoopCount = 1;
+    //test comment
     boolean safetyEnabled = true;
     ArrayList<Integer> safetyMouseButtons;
     ArrayList<String> safetyKeys;
